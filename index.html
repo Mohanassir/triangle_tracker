@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/script.js"></script>
+  <title>Triangle tracker</title>
+  </head>
+  <body>
+    <div>
+      <h1>Triangle tracker program</h1>
+        <p>Basically, this is an application program that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles or scalene triangle or if the sides cannot make a triangle at all</p>
+
+      <h2>What is a triangle</h2>
+        <p>A triangle basically is a figure that has three sides and three angles</p>
+
+      <h3>Types of a triangle</h3>
+        <p>Here is a list of the types of triangles</p>
+
+        <ul>
+          <li>Equilateral triangle  - It is a triangle where all sides are equal</li>
+          <li>Isosceles triangle -   It is a triangle where two sides are equal</li>
+          <li>Scalene triangle -    It is a triangle where all sides are not equal</li>
+          </ul>
+
+    <fieldset class="form">
+      <form class="sidesset" action="index.html" method="post">
+        <div class="sides">
+
+          <p>side 1. <input type="number" name="triangle" value="" id="sideOne"></p>
+          <p>side 2. <input type="number" name="triangle" value="" id="sideTwo"></p>
+          <p>side 3. <input type="number" name="triangle" value="" id="sideThree"></p>
+          <button id="submit" type="submit" name="button" onclick="triangleTracker ()">Display result</button>
+          <button id="reset" type="reset" name="reset">RESET</button>
+    </div>
+
+  </body>
+</html>
