@@ -1,8 +1,8 @@
-####Triangle triangle
-#####This is my triangle tracking project 17/2/2019
-####By Mohanassir
+#### Triangle triangle
+#### This is my triangle tracking project 17/2/2019
+#### By Mohanassir
 
-#####DESCRIPTION
+## DESCRIPTION
 It is a website for changing triangles
 
 . First, it add two sides and check if the two sides are less or equal to the third side. If  it evaluates to true, then it displays that the triangle cannot be formed.
@@ -11,11 +11,11 @@ It is a website for changing triangles
 . It finally checks if the sides are not equal and if it is true, it outputs scalene triangle.
 
 
-#####setup/installations
+#### setup/installations
 .atom
 .chrome
 
-####Technologies Used.
+#### Technologies Used.
 html
 css
 Javascript
